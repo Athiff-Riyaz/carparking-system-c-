@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="carpark.exe" version="1.0.0.0" publicKeyToken="f94e203fd335fcec" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="carpark" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="carpark.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="carpark.exe" size="219112">
+      <assemblyIdentity name="carpark" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bJBZL/YU+e7K6TZq3L505sqoMTpVWizZDfxxwViAU0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="carpark.exe.config" size="552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>A2T4cLWcvPOM4ucT8zpm7YEMzwZ8E3zk1n5gDI3YPIo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-1DDKCJHV\NM2021" issuerKeyHash="dc207edf9cfd7ba2cf762b6c92a48cc002a6e956" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xvJxWiJETBGInnS5FNSJz1OwkqyeAwzL1kRlTM43zkU=</DigestValue></Reference></SignedInfo><SignatureValue>pVE1GUdwQ9WJ/inCyYKt9lVCUWRb4+k4tmB6ZNwLWUkDoQf1oCPBtBWo/47xZbY+RRyQT3ntTwyNjdIlYzX0FVfCFuGSTu79KPRluf0pcrkudUIJVP6PFuKp/zICsC772K6YzXU7F+5EOndf3J1z1B9c9zySAryYwH4mBgJdajc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zm4fU10l43DrsBaeWyaudSgSCtRUAL4kS0n0y087jN9aRV/lK7ZZrdqlaQ5IjdIlu1kxwyJx0cjl6x757oBKYApySJ9wPzWCwg7RpMk/WJ7hHQiWZhHY3inm0nTlzhwweVwKCtdFy7DPnoGKRbXFyQcqfiMdNwF9spkiDi8y8e0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="45ce37ce4c6544d6cb0c039eac92b053cf89d414b9749e88114c44225a71f2c6" Description="" Url=""><as:assemblyIdentity name="carpark.exe" version="1.0.0.0" publicKeyToken="f94e203fd335fcec" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-1DDKCJHV\NM2021</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KTxowl6YmdiFfGqch5dfEpc3yv45kigSUo5qvN/1XNs=</DigestValue></Reference></SignedInfo><SignatureValue>fxb5E9l7EuMrViOWs0BQHSK28ay+HWGPQquiJiAb98TGH2fj8mlxQac1COocNFwS71/5oJwwlvTGNuSAdn5h4Z4Q9NU/ADJDKiB2/a6JmvGD1CnjYIBUcFJW8OziAOKMbQM0S33M5YtxWJk8iKtzhclgjMQyjcwvUun084WRvbU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zm4fU10l43DrsBaeWyaudSgSCtRUAL4kS0n0y087jN9aRV/lK7ZZrdqlaQ5IjdIlu1kxwyJx0cjl6x757oBKYApySJ9wPzWCwg7RpMk/WJ7hHQiWZhHY3inm0nTlzhwweVwKCtdFy7DPnoGKRbXFyQcqfiMdNwF9spkiDi8y8e0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQRR9HdjkYEYtOPdB/PyY7sjANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwATABBAFAAVABPAFAALQAxAEQARABLAEMASgBIAFYAXABOAE0AMgAwADIAMTAeFw0yMjA5MjkxMjUwNDJaFw0yMzA5MjkxODUwNDJaMDcxNTAzBgNVBAMeLABMAEEAUABUAE8AUAAtADEARABEAEsAQwBKAEgAVgBcAE4ATQAyADAAMgAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDObh9TXSXjcOuwFp5bJq51KBIK1FQAviRLSfTLTzuM31pFX+Urtlmt2qVpDkiN0iW7WTHDInHRyOXrHvnugEpgCnJIn3A/NYLCDtGkyT9YnuEdCJZmEdjeKebSdOXOHDB5XAoK10XLsM+egYpFtcXJByp+Ix03AX2ymSIOLzLx7QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEzC3C5YhJVoeCJIwScnwkNUtWvMVQFwVRN5IZ51tQ4DMVk1rE0H/qCL3pjDwz2KOeHSFvqBgRzOXAlm2l1l9b409SVErRPmMkLE3DgVZ8R81RFT1fIg5LHVI9A8TKVGjdAswkYZKzkx3TpiH1eEVdTZGEwUoueDJwZ62CkLJsD8</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
